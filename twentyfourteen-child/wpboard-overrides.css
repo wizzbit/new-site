@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*////// JOBS BOARD OVERRIDES //////*/
+.content-sidebar .widget{text-align: left;}
+.content-sidebar .widget-area li{list-style: none;text-align: left; margin-bottom: 3px;}
+.content-sidebar .widget .widget-title {border-top: none !important;color: #4d4b48 !important;font-size: 20px !important;text-align: left;  margin-bottom: 3px !important;}
+.content-sidebar .widget a{color:rgba(0, 179, 191, 1) !important;text-decoration: underline;}
+
+.widget.widget_wpjb-job-locations{ margin-bottom: 20px;}
+
+.wpjb-grid .wpjb-grid-row > div{  padding: 0 1% 0 0;}
+.wpjb .wpjb-grid .wpjb-grid-row.wpjb-click-area{  background-color: #e4e4e4;padding:20px;  margin-bottom: 10px;-webkit-transition: all 3ms ease-in-out;
+-moz-transition: all 3ms ease-in-out;
+-ms-transition: all 3ms ease-in-out;
+-o-transition: all 3ms ease-in-out;
+transition: all 3ms ease-in-out;}
+.wpjb .wpjb-grid .wpjb-grid-row.wpjb-click-area:hover{  background-color: #4d4b48;padding:20px;  margin-bottom: 10px;-webkit-transition: all 3ms ease-in-out;
+-moz-transition: all 3ms ease-in-out;-ms-transition: all 3ms ease-in-out;
+-o-transition: all 3ms ease-in-out;
+transition: all 3ms ease-in-out;}
+.wpjb-line-major a:hover{color:rgba(0, 179, 191, 1) !important;}
+
+.wpjb .wpjb-grid .wpjb-grid-row.wpjb-click-area:hover .wpjb-col-title, .wpjb .wpjb-grid .wpjb-grid-row.wpjb-click-area:hover .wpjb-col-location, .wpjb .wpjb-grid.wpjb-grid-row.wpjb-click-area:hover .wpjb-line-major{color:#FFF;}
+.wpjb-page-index .wpjb-col-title a{  font-size: 33px;}
+.wpjb-grid-col.wpjb-col-logo{display:none;}
+.wpjb .wpjb-bulb{  background: none;color:rgba(0, 179, 191, 1);font-weight:500;font-size: 23px;}
+
+.wpjb-top-header-image{display:none;}
+
+.wpjb-top-header.wpjb-layer-inside{ background-color: #e4e4e4;}
+
+.wpjb .wpjb-grid{margin-bottom:30px;}
+.wpjb-text-box h3{font-weight: 500;font-size: 30px;}
+
+span.wpjb-top-header-title{  font-size: 43px !important;line-height: 1.2!important;color:rgba(0, 179, 191, 1)!important;}
+.wpjb .wpjb-top-header-subtitle{  font-style: normal;}
+
+.wpjb-grid-col.wpjb-col-30{font-size: 22px;font-weight: 500;text-transform: uppercase;line-height: 1.1;}
+.wpjb-grid .wpjb-grid-row{  border-bottom: 2px solid #e4e4e4;}
+.wpjb .wpjb-grid.wpjb-grid-closed-top{ border-top: 2px solid #e4e4e4;}
+.wpjb-none.wpjb-map-slider{padding-top:3% !important;}
+
+.wpjb-grid-col.wpjb-col-10.wpjb-grid-col-right.wpjb-grid-col-last span.wpjb-line-major{ font-weight:500;}
+.wpjb .wpjb-grid .wpjb-grid-row.wpjb-click-area:hover .wpjb-grid-col.wpjb-col-10.wpjb-grid-col-right.wpjb-grid-col-last span.wpjb-line-major{ font-color:#FFF;}
